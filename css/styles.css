@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+main {
+  padding: 20px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* puts space between the items */
+  padding: 0 20px;
+  /* keeps them away from screen edges */
+  gap: 50px;
+  /* optional: adds space between items */
+}
+
+.container img {
+  flex: 1;
+  /* allows them to grow evenly */
+  object-fit: cover;
+  height: 80%;
+}
+
+#imageA {
+  width: 400px;
+  /* Fixed width */
+  height: 400px;
+  /* Fixed height */
+  object-fit: cover;
+  /* Crop/scale to fill the box */
+  display: block;
+  margin: 20px auto;
+  /* Center horizontally */
+  float: left;
+}
+
+#imageB {
+  width: 400px;
+  /* Fixed width */
+  height: 400px;
+  /* Fixed height */
+  object-fit: cover;
+  /* Crop/scale to fill the box */
+  display: block;
+  margin: 20px auto;
+  /* Center horizontally */
+  float: right;
+}
